@@ -42,14 +42,14 @@ def fetch_slots():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # DEBUG: print first 3000 chars of HTML so we can see what the server returns
+    # DEBUG: print first 3000 chars so we can see what the server returns
     print("--- HTML SNIPPET ---")
     print(response.text[:3000])
     print("--- END SNIPPET ---")
 
     timetable = soup.select_one("div.timetable")
     if timetable is None:
-        print("ERROR: div.timetable not found in page — the page may require JavaScript or a login.")
+        print("ERROR: div.timetable not found — page may require JavaScript or a login.")
         return []
 
     rows = timetable.select("div.table-row")
@@ -82,7 +82,7 @@ def fetch_slots():
             field = field.get_text(strip=True) if field else "?"
 
             href = a.get("href", "")
-            booking_url = href if href.startswith("http") else f"https://www.zeh.tu-berlin.de{href}"
+            booking_url = href if href.startswith("http") else f"https://www.tu-sport.de{href}"
 
             matches.append({
                 "day": current_day,
