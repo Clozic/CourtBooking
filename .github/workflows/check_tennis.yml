@@ -29,3 +29,8 @@ jobs:
           TARGET_DATE: ${{ vars.TARGET_DATE }}
           TARGET_TIMES: ${{ vars.TARGET_TIMES }}
         run: python check_tennis.py || true
+
+env:
+          ...
+          TARGET_START_HOUR: 7
+          TARGET_END_HOUR: 8

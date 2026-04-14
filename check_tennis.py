@@ -14,9 +14,8 @@ TARGET_DAYS = {
     "Donnerstag",
     "Freitag",
 }
-
-TARGET_START_HOUR = 17
-TARGET_END_HOUR = 20
+TARGET_START_HOUR = int(os.environ.get("TARGET_START_HOUR", 17))
+TARGET_END_HOUR = int(os.environ.get("TARGET_END_HOUR", 20))
 
 
 def fetch_html():
