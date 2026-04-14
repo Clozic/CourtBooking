@@ -28,9 +28,6 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           TARGET_DATE: ${{ vars.TARGET_DATE }}
           TARGET_TIMES: ${{ vars.TARGET_TIMES }}
+          TARGET_START_HOUR: ${{ vars.TARGET_START_HOUR }}
+          TARGET_END_HOUR: ${{ vars.TARGET_END_HOUR }}
         run: python check_tennis.py || true
-
-env:
-          ...
-          TARGET_START_HOUR: 7
-          TARGET_END_HOUR: 8
