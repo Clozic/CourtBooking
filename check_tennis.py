@@ -115,21 +115,19 @@ def main():
     now = datetime.now(timezone.utc)
     print("Run at:", now.isoformat())
 
-    try:
-        html = fetch_html()
-        slots = parse_slots(html)
+    html = fetch_html()
+    print("HTML fetched, length:", len(html))
 
-        print(f"Found {len(slots)} matching slot(s).")
+    slots = parse_slots(html)
+    print("After parsing")
 
-        for s in slots:
-            print(f"  {s['day']} {s['time']}")
+    print(f"Found {len(slots)} matching slot(s).")
 
-        if slots:
-            send_email(slots)
+    for s in slots:
+        print(f"  {s['day']} {s['time']}")
 
-    except Exception as e:
-        print("ERROR:", str(e))
-        raise
+    if slots:
+        send_email(slots)
 
 
 if __name__ == "__main__":
