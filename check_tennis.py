@@ -39,51 +39,36 @@ def fetch_html():
 
 def parse_slots(html):
     soup = BeautifulSoup(html, "html.parser")
-
     timetable = soup.select_one("div.timetable")
-    if timetable is None:
-        # Debug-Snapshot schreiben
-        with open("debug.html", "w", encoding="utf-8") as f:
-            f.write(html)
-        raise ValueError("timetable not found → HTML structure changed or blocked")
+    if not timetable:
+        # Sometimes the site returns a "Loading" page or a Maintenance page
+        return []
 
-    rows = timetable.select("div.table-row")
-
+    rows = timetable.find_all("div", class_="table-row")
     current_day = None
     matches = []
 
     for row in rows:
-        # Wochentag erkennen
         head = row.select_one("div.table-head")
         if head:
-            current_day = head.get_text(strip=True)
+            # Clean up potential &nbsp; or hidden characters
+            current_day = head.get_text(strip=True).replace('\xa0', ' ')
             continue
 
-        if current_day not in TARGET_DAYS:
+        if not current_day or current_day not in TARGET_DAYS:
             continue
 
-        # Slots extrahieren
-        slots = row.select("div.date.bookable")
-
-        for slot in slots:
+        for slot in row.select("div.date.bookable"):
             time_el = slot.select_one("strong.time")
-            if not time_el:
-                continue
-
-            time_text = time_el.get_text(strip=True)
-
-            # Zeitbereich extrahieren (Startstunde)
-            try:
-                start_hour = int(time_text.split(":")[0])
-            except Exception:
-                continue  # falls Format unerwartet ist
-
-            if TARGET_START_HOUR <= start_hour < TARGET_END_HOUR:
-                matches.append({
-                    "day": current_day,
-                    "time": time_text
-                })
-
+            if time_el:
+                time_text = time_el.get_text(strip=True)
+                try:
+                    start_hour = int(time_text.split(":")[0])
+                    # Adjusted to include the 21:00 slot if that's what you want
+                    if TARGET_START_HOUR <= start_hour <= TARGET_END_HOUR:
+                        matches.append({"day": current_day, "time": time_text})
+                except (ValueError, IndexError):
+                    continue
     return matches
 
 

@@ -1,0 +1,886 @@
+<html lang="de-de" xmlns="http://www.w3.org/1999/xhtml" xmlns:f="http://typo3.org/ns/fluid/ViewHelpers" xmlns:dw="Dw\Dwzeh\ViewHelpers" class=""><head>
+
+<meta charset="utf-8">
+<!-- 
+	******************************************************
+	(c) Zentraleinrichtung Hochschulsport TU Berlin
+	******************************************************
+	
+	This page was created by:
+	
+	e-pixler NEW MEDIA GmbH
+	Design | Entwicklung | Hosting
+	
+	Edisonstraße 63
+	Leuchtenfabrik | Aufgang E
+	12459 Berlin
+	
+	+49 30 2205630 0
+	info(at)e-pixler.com
+	www.e-pixler.com
+	
+	******************************************************
+
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2026 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at https://typo3.org/
+-->
+
+
+<link rel="icon" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/favicon.ico" type="image/vnd.microsoft.icon">
+
+<meta http-equiv="x-ua-compatible" content="IE=edge">
+<meta name="generator" content="TYPO3 CMS">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-83ee8b2a80e0de2ad01a731741f48979-85c5b0d019431c6ce5dcceeb23d06976.css?1761131607" media="screen">
+<link rel="stylesheet" href="/typo3temp/assets/compressed/merged-47f36c83e5a64c2ce7a87082b4313e72-8e723efcb132c59a824e1129f66ddf4c.css?1746437503" media="print">
+
+
+
+
+
+
+<title> Kurse </title><link rel="apple-touch-icon" sizes="57x57" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/favicon-16x16.png">
+<link rel="manifest" href="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/manifest.json">
+<link rel="canonical" href="https://www.tu-sport.de/sportprogramm/kurse/?tx_dwzeh_courses%5Baction%5D=show&amp;tx_dwzeh_courses%5BsportsDescription%5D=768&amp;cHash=302c5e58dded9777b08d1305c1398488">
+<style type="text/css">.lightbox-margin{margin-right:0px;}</style></head>
+<body id="page-140" class="level-2 layout-1">
+<header class="pageheader fixed-top hideme"><div class="container"><div class="row"><div class="col-8 col-sm-8 col-lg-4"><div class="logoarea"><div class="logoarea_logo"><a href="https://www.tu.berlin" target="_blank" title="Zur TU-Berlin Hauptseite" aria-hidden="true" tabindex="-1"><img src="/typo3conf/ext/epx_hochschulsport/Resources/Public/Icons/tu-berlin-logo.svg" width="185px"></a></div><div class="logoarea_claim"><a href="/" title="Zentraleinrichtung Hochschulsport Startseite">
+                            Zentraleinrichtung Hochschulsport
+                        </a></div></div></div><div class="col-4 col-sm-4 col-lg-8 flexright"><div class="naviarea"><div class="topnavi d-lg-flex"><ul class="navlist"><li class="nav-item "><a class="nav-link" href="/information-in-english/" target="" title="Information in english">
+                                    Information in english
+                                </a></li><li class="nav-item "><a class="nav-link" href="/mailinglisten/" target="" title="Newsletter">
+                                    Newsletter
+                                </a></li><li class="nav-item "><a class="nav-link" href="/termine/" target="" title="Termine &amp; Öffnungszeiten">
+                                    Termine &amp; Öffnungszeiten
+                                </a></li><li class="nav-item "><a class="nav-link" href="/agb-1/" target="" title="AGB">
+                                    AGB
+                                </a></li><li class="nav-item "><a class="nav-link" href="/kontakt/" target="" title="FAQ">
+                                    FAQ
+                                </a></li><li class="nav-item "><a class="nav-link" href="/suche/" target="" title="Suche">
+                                    Suche
+                                </a></li></ul></div><div class="mainnavi d-lg-block"><ul id="nav-main" class="navlist"><li class="nav-item active hassub "><a class="nav-link" href="/sportprogramm/" target="" title="Sportprogramm">
+                                        Sportprogramm
+                                    </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/a-z/" target="" title="A-Z">
+                    A-Z
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/nach-bereichen/" target="" title="Nach Bereichen">
+                    Nach Bereichen
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/nach-sportstaetten/" target="" title="Nach Sportstätten">
+                    Nach Sportstätten
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/" target="" title="TU-Bootshaus">
+                    TU-Bootshaus
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/bootsverleih/" target="" title="Bootsverleih">
+                    Bootsverleih
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/rundgang-bootshaus/" target="" title="Rundgang Bootshaus">
+                    Rundgang Bootshaus
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/sportbootfuehrerschein/" target="" title="Sportbootführerschein">
+                    Sportbootführerschein
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/sportbootfuehrerschein-binnen-ausbildung/" target="" title="Alle Segelangebote">
+                    Alle Segelangebote
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/regelungen-zum-ausleihbetrieb-am-tu-bootshaus/" target="" title="Fragen und Antworten zum Ausleihbetrieb">
+                    Fragen und Antworten zum Ausleihbetrieb
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/verleihboote/" target="" title="Verleihboote">
+                    Verleihboote
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/paddeln/" target="" title="Alle Paddelangebote">
+                    Alle Paddelangebote
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/rudern/" target="" title="Alle Ruderangebote">
+                    Alle Ruderangebote
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/" target="" title="Wassersportkooperationen">
+                    Wassersportkooperationen
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/wakeboard-und-wasserski/" target="" title="Wakeboard- und Wasserski in Großbeeren">
+                    Wakeboard- und Wasserski in Großbeeren
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/surfen-und-kitesurfen-mit-den-ruegen-piraten/" target="" title="Surfen und Kitesurfen mit den Rügen Piraten">
+                    Surfen und Kitesurfen mit den Rügen Piraten
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/fitness-studio/" target="" title="Fitness-Studio">
+                    Fitness-Studio
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/online-angebote-1/" target="" title="Online Flatrate">
+                    Online Flatrate
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/outdoor-gym/" target="" title="Outdoor Gym">
+                    Outdoor Gym
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote/" target="" title="Gruppenangebote">
+                    Gruppenangebote
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote/eisstockschiessen-tu-sportzentrum-dovestrasse/" target="" title="Eisstockschießen TU-Sportzentrum Dovestraße">
+                    Eisstockschießen TU-Sportzentrum Dovestraße
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/" target="" title="Gesundheitsförderung">
+                    Gesundheitsförderung
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/yogastile-guide/" target="" title="Yogastile - Guide">
+                    Yogastile - Guide
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/gesundheitsangebote-fuer-beschaeftigte/" target="" title="Gesundheitsangebote für Beschäftigte">
+                    Gesundheitsangebote für Beschäftigte
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/" target="" title="be part of it">
+                    be part of it
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/challenge-monate/" target="" title="Challenge Monate">
+                    Challenge Monate
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/fahrradtouren/" target="" title="Fahrradtouren">
+                    Fahrradtouren
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-2-1/" target="" title="Free Yoga Class">
+                    Free Yoga Class
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-2/" target="" title="Fahrradtour SoSe23">
+                    Fahrradtour SoSe23
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-2/" target="" title="Challenge Monat 23 Info">
+                    Challenge Monat 23 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-bib/" target="" title="QR Code Challenge Bib">
+                    QR Code Challenge Bib
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/study-together/" target="" title="Study Together">
+                    Study Together
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-1-1-1/" target="" title="Magic">
+                    Magic
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-1/" target="" title="Wednesday Wisdom - Novembertipps Info">
+                    Wednesday Wisdom - Novembertipps Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1/" target="" title="Fahrradtour WiSe 22/23 Info">
+                    Fahrradtour WiSe 22/23 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1/" target="" title="Fahrradtour SoSe22 Info">
+                    Fahrradtour SoSe22 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1/" target="" title="Challenge Monat 22 Info">
+                    Challenge Monat 22 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2/" target="" title="QR Code Challenge Info">
+                    QR Code Challenge Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange/" target="" title="QR Code Challenge BB">
+                    QR Code Challenge BB
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1/" target="" title="QR Code Challenge TT">
+                    QR Code Challenge TT
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1/" target="" title="QR Code Challenge Bank">
+                    QR Code Challenge Bank
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1/" target="" title="QR Code Challenge SRH">
+                    QR Code Challenge SRH
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1-1/" target="" title="QR Code Challenge EH">
+                    QR Code Challenge EH
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1-1-1/" target="" title="QR Code Challenge VP">
+                    QR Code Challenge VP
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-rad/" target="" title="QR Code Challenge Rad">
+                    QR Code Challenge Rad
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-wiwi/" target="" title="QR Code Challenge WiWi">
+                    QR Code Challenge WiWi
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-mensa/" target="" title="QR Code Challenge Mensa">
+                    QR Code Challenge Mensa
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/plaetze-zum-treffen-und-aktivsein/" target="" title="Plätze zum Treffen und Aktivsein">
+                    Plätze zum Treffen und Aktivsein
+                </a></li></ul></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/spitzensport/" target="" title="Spitzensport">
+                                        Spitzensport
+                                    </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/spitzensport/duale-karriere-an-der-tu-berlin/" target="" title="Duale Karriere an der TU Berlin">
+                    Duale Karriere an der TU Berlin
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/spitzensportticker/" target="" title="Nachrichten">
+                    Nachrichten
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/kooperationsvereinbarung/" target="" title="Kooperationsvereinbarung">
+                    Kooperationsvereinbarung
+                </a></li><li class="nav-item "><a class="nav-link" href="/erfolge-der-spitzensportlerinnen/" target="" title="Sportliche Erfolge">
+                    Sportliche Erfolge
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/world-university-games/" target="" title="FISU World University Games">
+                    FISU World University Games
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/portraets-der-spitzensportlerinnen/" target="" title="Porträts der Spitzensportler/innen">
+                    Porträts der Spitzensportler/innen
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/" target="" title="Archiv">
+                    Archiv
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/nachrichten-archiv/" target="" title="Nachrichten-Archiv">
+                    Nachrichten-Archiv
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/nachrichten-archiv/standard-titel/" target="" title="Detailseite">
+                    Detailseite
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/" target="" title="Frühere Wettkampfberichterstattung">
+                    Frühere Wettkampfberichterstattung
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/spitzensport/duale-karriere-an-der-tu-berlin-1-1/" target="" title="Paris 2024">
+                    Paris 2024
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/rio-2016/" target="" title="Rio 2016">
+                    Rio 2016
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/universiade-taipeh-2017/" target="" title="Universiade Taipeh 2017">
+                    Universiade Taipeh 2017
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/" target="" title="Leichtathletik EM Berlin 2018">
+                    Leichtathletik EM Berlin 2018
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-1-sebastian-schenk-laeufer/" target="" title="Interviewreihe - Folge 1: Sebastian Schenk, Läufer">
+                    Interviewreihe - Folge 1: Sebastian Schenk, Läufer
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-2-timo-benitz-mittelstreckenlaeufer/" target="" title="Interviewreihe - Folge 2: Timo Benitz, Mittelstreckenläufer">
+                    Interviewreihe - Folge 2: Timo Benitz, Mittelstreckenläufer
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-3-thurid-gers-hindernislaeuferin/" target="" title="Interviewreihe - Folge 3: Thurid Gers, Hindernisläuferin">
+                    Interviewreihe - Folge 3: Thurid Gers, Hindernisläuferin
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/dokumentation-des-kontroversen-ard-interviews-mit-timo-benitz/" target="" title="Dokumentation des kontroversen ARD-Interviews mit Timo Benitz">
+                    Dokumentation des kontroversen ARD-Interviews mit Timo Benitz
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/spitzensport/chronik-der-spitzensportfoerderung/" target="" title="Chronik der Spitzensportförderung">
+                    Chronik der Spitzensportförderung
+                </a></li></ul></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/wettkampf-events/" target="" title="Wettkampf">
+                                        Wettkampf
+                                    </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/wettkampf-events/hochschulmeisterschaften/" target="" title="Hochschulmeisterschaften - DHM">
+                    Hochschulmeisterschaften - DHM
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/turniere/" target="" title="BHM &amp; Turniere">
+                    BHM &amp; Turniere
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/uni-ligen/" target="" title="Uni-Ligen">
+                    Uni-Ligen
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/volleyballliga/" target="" title="Volleyballliga">
+                    Volleyballliga
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/volleyballliga/anmeldung/" target="" title="Anmeldung">
+                    Anmeldung
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/" target="" title="Fussballiga">
+                    Fussballiga
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/sportplaetze/" target="" title="Sportplätze">
+                    Sportplätze
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/regeln/" target="" title="Regeln">
+                    Regeln
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/versicherung/" target="" title="Versicherung">
+                    Versicherung
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/anmeldung/" target="" title="Anmeldung">
+                    Anmeldung
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/anmeldung-1/" target="" title="Spielplan">
+                    Spielplan
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/ergebinsse-melden/" target="" title="Ergebnisse melden">
+                    Ergebnisse melden
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1-1/" target="" title="Tabelle">
+                    Tabelle
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1-1/" target="" title="Saison 2025/2026">
+                    Saison 2025/2026
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1/" target="" title="Saison 2024/2025">
+                    Saison 2024/2025
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024/" target="" title="Saison 2023/2024">
+                    Saison 2023/2024
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020-1-1/" target="" title="Saison 2022/2023">
+                    Saison 2022/2023
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020-1/" target="" title="Saison 2021/2022">
+                    Saison 2021/2022
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020/" target="" title="Saison 2019/2020">
+                    Saison 2019/2020
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2018/2019/" target="" title="Saison 2018/2019">
+                    Saison 2018/2019
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2016/2017/" target="" title="Saison 2016/2017">
+                    Saison 2016/2017
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2015/2016/" target="" title="Saison 2015/2016">
+                    Saison 2015/2016
+                </a></li></ul></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/wettkampf-eventkalender/" target="" title="Wettkampf &amp; Eventkalender">
+                    Wettkampf &amp; Eventkalender
+                </a></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/events-1/" target="" title="Events">
+                                        Events
+                                    </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/wettkampf-events/events/" target="" title="Jahresübersicht">
+                    Jahresübersicht
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote-1/" target="" title="Eventanfragen">
+                    Eventanfragen
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/after-work-cup/" target="" title="After-Work Cup">
+                    After-Work Cup
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/firmenlauf/" target="" title="Firmenlauf">
+                    Firmenlauf
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/das-stadtradeln-finale/" target="" title="Stadtradeln">
+                    Stadtradeln
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/sport-und-nachhaltigkeitstag-am-bootshaus-der-tu-berlin/" target="" title="Nachhaltigkeitstag">
+                    Nachhaltigkeitstag
+                </a></li><li class="nav-item "><a class="nav-link" href="/tu-sport-on-stage/" target="" title="TU-Sport on Stage">
+                    TU-Sport on Stage
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/zumba-party/" target="" title="Zumba® Party 🌟">
+                    Zumba® Party 🌟
+                </a></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/service/" target="" title="Service">
+                                        Service
+                                    </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/" target="" title="How TU Buchung">
+                    How TU Buchung
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/einzelterminbuchungen/" target="" title="Einzelterminbuchungen">
+                    Einzelterminbuchungen
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/orte/" target="" title="Orte">
+                    Orte
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/zahlung/" target="" title="Zahlung">
+                    Zahlung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/ausbuchung/" target="" title="Ausbuchung">
+                    Ausbuchung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/entgelte/" target="" title="Entgelte">
+                    Entgelte
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/zeitraeume/" target="" title="Zeiträume">
+                    Zeiträume
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/kontakt/" target="" title="FAQ | Kontakt">
+                    FAQ | Kontakt
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/faq-kontakt-english/" target="" title="FAQ | Kontakt English">
+                    FAQ | Kontakt English
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/team/" target="" title="Das sind wir">
+                    Das sind wir
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/" target="" title="Fortbildungen">
+                    Fortbildungen
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/awareness-schulung/" target="" title="Awareness Schulung">
+                    Awareness Schulung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/sicherheitsunterweisung/" target="" title="Sicherheitsunterweisung">
+                    Sicherheitsunterweisung
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/service/jobs/" target="" title="Jobs">
+                    Jobs
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/downloads/" target="" title="Downloads">
+                    Downloads
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/" target="" title="Vermietungen">
+                    Vermietungen
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/service/vermietungen/vermietungstext-bootshaus/" target="" title="Vermietungstext Bootshaus">
+                    Vermietungstext Bootshaus
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/vermietung-sport-und-seminarraeume/" target="" title="Vermietung Sport- und Seminarräume">
+                    Vermietung Sport- und Seminarräume
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/buchungsbedingungen-und-nutzungsvertrag/" target="" title="Buchungsbedingungen und Nutzungsvertrag">
+                    Buchungsbedingungen und Nutzungsvertrag
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/rat-der-zeh/" target="" title="Rat der ZEH">
+                    Rat der ZEH
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/frauenbeauftragte/" target="" title="Gleichstellung">
+                    Gleichstellung
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/service/frauenbeauftragte/anonymes-feedback/" target="" title="Anonymes Feedback">
+                    Anonymes Feedback
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/service/sportspartners/" target="" title="Sportpartner*innenbörse">
+                    Sportpartner*innenbörse
+                </a><ul class="lvl2 navlist"><li class="nav-item "><a class="nav-link" href="/sportspartnerlink-1/" target="" title="Sportspartnerlink">
+                    Sportspartnerlink
+                </a></li></ul></li></ul></li></ul></div></div></div></div></div></header><div class="container"><div class="row"><div class="col-12"><ul id="breadcrumb" class="nav" itemscope="" itemtype="http://schema.org/BreadcrumbList"><li>
+                        Sie befinden sich hier:
+                    </li><li><a href="/" title="Zentraleinrichtung Hochschulsport">ZEH</a></li><li class="active" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem"><span itemprop="item" title="Sportprogramm"><span itemprop="name">
+                                            Sportprogramm
+                                        </span><meta itemprop="position" content="1"></span></li></ul></div></div></div><div class="container headerrow"><div class="row"><div class="col-12"></div></div></div><div class="container contentrow"><div class="row"><div class="col-12" role="main"><div id="c301" class="frame frame-default frame-type-list frame-layout-0"><div class="row"><div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-9"><h1>Tennis-Courtmiete Einzeltermin
+            
+        </h1><p>Einzelplatzbuchungen werden wöchentlich freigeschaltet, immer eine Woche im Voraus. Alle freien Plätze sind auf der Website zu sehen.</p><ul><li><strong>Anmeldung:</strong> Eine paarweise Anmeldung ist erforderlich – eine Person meldet zwei Personen in einem Buchungsprozess an; die Höhe des Gesamtentgeltes für die Platzbuchung setzt sich aus der Summe der Entgelte beider Personen in Abhängigkeit ihres Status zusammen. Die Buchung von zwei oder drei Plätzen zur selben Zeit ist nicht zulässig. <strong>Die Buchung ist 7 Tage vor dem Termin möglich.</strong></li><li><strong>Nutzung</strong>: Jede Platzbuchung kann von maximal 4 Personen genutzt werden, zusätzlich zur oben beschriebenen paarweisen Anmeldung können max. zwei weitere Personen ohne eine zusätzliche Buchung mitspielen (als Doppel).</li><li><strong>Zahlung</strong>: Bei der paarweisen Anmeldung geben beide Personen ihre Personendaten und E-Mail-Adressen an, jedoch nur eine Kontoverbindung. Die Entgelte für beide Personen werden von dem einen angegebenen Konto abgebucht. Kenntlich gemacht ist dies durch Ihre Buchungsnummer. Die Abbuchung erfolgt im Lastschriftverfahren mit Ankündigung per E-Mail an beide Teilnehmende(n). Unbedingt zu beachten ist, dass die eigene Bank am SEPA-Lastschriftverfahren teilnimmt. Viele ausländische Banken unterstützen dieses System nicht.</li></ul><p><strong>Informationen zur Hallennutzung: </strong></p><p>Liebe Tennisspieler*innen,</p><p>zeitweise ist kein Personal vor Ort ist, bitten wir euch um besondere Achtsamkeit:</p><ul><li><strong>Erste Hilfe:</strong> Bitte stellt sicher, dass ihr in der Lage seid, Erste Hilfe zu leisten und den Rettungsdienst zu verständigen.</li><li><strong>Notfallausstattung:</strong> Einen <strong>Erste-Hilfe-Kasten</strong> findet ihr sowohl in der Tennishalle als auch am Eingang. Macht euch vor eurem Spiel mit der Lage dieser Kästen sowie den <strong>Fluchtwegen</strong> vertraut.</li><li><strong>Nachbarschaftshilfe:</strong> Sollte es zu einem Notfall kommen, könnt ihr euch auch an Personen in den benachbarten Gebäuden wenden.</li></ul><p>Um euch umfassend zu informieren, bieten wir eine <strong>Sicherheitsunterweisung für das Sportzentrum Waldschulallee</strong> an. Die Unterweisung findet ihr auf unserer Homepage: <a href="https://www.tu-sport.de/service/fortbildungen/sicherheitsunterweisung/#c1654" target="_new">Sicherheitsunterweisung TU-Sport</a>.</p><p>Bitte beachtet zudem unsere <a href="https://www.tu-sport.de/agb/nutzungsordnung-tu-sportzentrum-waldschulallee/" target="_new">Nutzungsordnung für das Sportzentrum Waldschulallee</a>.</p><p><strong>Bitte beachtet zudem die Hinweise auf eurer Buchungsbestätigung.&nbsp;</strong>Diese können für den Zutritt in die Halle relevant sein.&nbsp;</p><p>Wir danken euch für euer Verständnis und eure Unterstützung in dieser herausfordernden Zeit. Trotz der Einschränkungen tun wir alles, um euch weiterhin ein attraktives und sicheres Sportangebot bieten zu können.</p><p>Bleibt sportlich und achtsam!</p><h3>&nbsp;</h3><ul></ul><h3>Bitte mitbringen</h3><ul><li>Tennisschläger</li><li>Tennisschuhe für Allcourt</li><li>Tennisbälle</li></ul></div><div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-3"><aside class="dwzeh_sportsmarginal"><div class="dwzeh_singlecontact"><div class="dwzeh_singlecontact_text"><h3>
+                                
+                                        Ansprechpartner
+                                    
+                            </h3><h4>Geschäftsstelle TU-Sport</h4><ul><li><a href="mailto:info@zeh.tu-berlin.de" class="email-link encoded" title="">E-Mail</a></li></ul></div></div><div class="frame-type-menu_pages"><h3>Detailinformationen</h3><ul><li><a href="/fileadmin/content/01_sportprogramm/11_Ballsport/Tennis_Courtmiete_Infoseite_fuer_Teilnehmende.pdf" class="download-link">
+                                    Wichtige Hinweise für Spieler*innen
+                                </a></li></ul></div><div class="bs-teaser"><div class="teaser-headline"><h3>Wichtige Infos</h3></div><div class="teaser-content"><p>TU-Sportzentrum Waldschulallee 71,<br> 14055 Berlin,<br> Tel.: 030 3024076</p></div></div></aside></div></div><div class="row"><div class="col-12"><div class="dwzeh"><div class="timetable table"><div class="table-header-group"><div class="table-row"><div class="table-head">
+                    Montag
+                </div></div></div><div class="table-body-group"><div class="table-row"><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=203987"><strong class="time">07:00-08:00</strong><span class="dates">13.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204189"><strong class="time">07:00-08:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204404"><strong class="time">07:00-08:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 3</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204193"><strong class="time">08:00-09:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204408"><strong class="time">08:00-09:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 3</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="15:00-16:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204002"><strong class="time">15:00-16:00</strong><span class="dates">13.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="8,00€ Studierende der kooperierenden Hochschulen 
+9,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+9,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+12,00€ Externe
+" data-tooltip="down" title="21:00-22:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204232"><strong class="time">21:00-22:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204016"><strong class="time">22:00-23:00</strong><span class="dates">13.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204234"><strong class="time">22:00-23:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204451"><strong class="time">22:00-23:00</strong><span class="dates">13.04.-12.10.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                    Dienstag
+                </div></div><div class="table-row"><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204018"><strong class="time">07:00-08:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204236"><strong class="time">07:00-08:00</strong><span class="dates">13.04.-13.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204453"><strong class="time">07:00-08:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204020"><strong class="time">08:00-09:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204238"><strong class="time">08:00-09:00</strong><span class="dates">13.04.-13.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204455"><strong class="time">08:00-09:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="12:00-13:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204246"><strong class="time">12:00-13:00</strong><span class="dates">21.04.-13.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="15:00-16:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204034"><strong class="time">15:00-16:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="8,00€ Studierende der kooperierenden Hochschulen 
+9,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+9,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+12,00€ Externe
+" data-tooltip="down" title="21:00-22:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204264"><strong class="time">21:00-22:00</strong><span class="dates">13.04.-13.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204048"><strong class="time">22:00-23:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204266"><strong class="time">22:00-23:00</strong><span class="dates">13.04.-13.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204483"><strong class="time">22:00-23:00</strong><span class="dates">14.04.-13.10.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                    Mittwoch
+                </div></div><div class="table-row"><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204050"><strong class="time">07:00-08:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 1</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204268"><strong class="time">07:00-08:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204485"><strong class="time">07:00-08:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 3</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204052"><strong class="time">08:00-09:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 1</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204269"><strong class="time">08:00-09:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 2</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204487"><strong class="time">08:00-09:00</strong><span class="dates">08.04.-14.10.</span><span class="detail">Feld 3</span></a></div><div class="date  bookable"><span class="statusbar"></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="09:00-10:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204489"><strong class="time">09:00-10:00</strong><span class="dates">08.04.-15.04.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                    Donnerstag
+                </div></div><div class="table-row"><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204082"><strong class="time">07:00-08:00</strong><span class="dates">09.04.-15.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204299"><strong class="time">07:00-08:00</strong><span class="dates">09.04.-15.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204517"><strong class="time">07:00-08:00</strong><span class="dates">09.04.-15.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204519"><strong class="time">08:00-09:00</strong><span class="dates">23.04.-15.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="10:00-11:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204305"><strong class="time">10:00-11:00</strong><span class="dates">09.04.-16.04.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="11:00-12:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204307"><strong class="time">11:00-12:00</strong><span class="dates">09.04.-16.04.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="12:00-13:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204309"><strong class="time">12:00-13:00</strong><span class="dates">09.04.-16.04.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204547"><strong class="time">22:00-23:00</strong><span class="dates">23.04.-15.10.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                    Freitag
+                </div></div><div class="table-row"><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204114"><strong class="time">07:00-08:00</strong><span class="dates">10.04.-16.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204331"><strong class="time">07:00-08:00</strong><span class="dates">10.04.-16.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204549"><strong class="time">07:00-08:00</strong><span class="dates">10.04.-16.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204333"><strong class="time">08:00-09:00</strong><span class="dates">10.04.-16.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204361"><strong class="time">22:00-23:00</strong><span class="dates">10.04.-16.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204579"><strong class="time">22:00-23:00</strong><span class="dates">24.04.-16.10.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                        Samstag
+                    </div></div><div class="table-row"><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204363"><strong class="time">07:00-08:00</strong><span class="dates">11.04.-17.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204581"><strong class="time">07:00-08:00</strong><span class="dates">11.04.-17.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="09:00-10:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204151"><strong class="time">09:00-10:00</strong><span class="dates">11.07.-17.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="10:00-11:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204153"><strong class="time">10:00-11:00</strong><span class="dates">11.07.-17.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="11:00-12:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204155"><strong class="time">11:00-12:00</strong><span class="dates">11.07.-17.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="12:00-13:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204157"><strong class="time">12:00-13:00</strong><span class="dates">11.07.-17.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="6,00€ Studierende der kooperierenden Hochschulen 
+7,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+7,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+9,00€ Externe
+" data-tooltip="down" title="13:00-14:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204159"><strong class="time">13:00-14:00</strong><span class="dates">11.07.-17.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204393"><strong class="time">22:00-23:00</strong><span class="dates">04.04.-17.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204610"><strong class="time">22:00-23:00</strong><span class="dates">04.04.-17.10.</span><span class="detail">Feld 3</span></a></div></div><div class="table-row"><div class="table-head column-1">
+                        Sonntag
+                    </div></div><div class="table-row"><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204179"><strong class="time">07:00-08:00</strong><span class="dates">12.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204395"><strong class="time">07:00-08:00</strong><span class="dates">12.04.-18.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="07:00-08:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204612"><strong class="time">07:00-08:00</strong><span class="dates">12.04.-18.10.</span><span class="detail">Feld 3</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204181"><strong class="time">08:00-09:00</strong><span class="dates">12.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="5,00€ Studierende der kooperierenden Hochschulen 
+6,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+6,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+8,00€ Externe
+" data-tooltip="down" title="08:00-09:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204397"><strong class="time">08:00-09:00</strong><span class="dates">12.04.-18.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204225"><strong class="time">22:00-23:00</strong><span class="dates">05.04.-18.10.</span><span class="detail">Feld 1</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204442"><strong class="time">22:00-23:00</strong><span class="dates">05.04.-18.10.</span><span class="detail">Feld 2</span></a></div><div class="date bookable"><span class="statusbar "></span><a aria-label="7,00€ Studierende der kooperierenden Hochschulen 
+8,00€ Beschäftigte und Azubis der kooperierenden Hochschulen
+8,00€ TU-Alumni, Studierende anderer Hochschulen, Schüler/innen, externe Azubis 
+11,00€ Externe
+" data-tooltip="down" title="22:00-23:00" target="_blank" href="https://www.zeh.tu-berlin.de/cgi/anmeldung.fcgi?Kursid=204636"><strong class="time">22:00-23:00</strong><span class="dates">05.04.-18.10.</span><span class="detail">Feld 3</span></a></div></div></div></div></div></div></div></div><div class="row"><div class="col-12"></div></div><div class="row"><div class="col-12"></div></div><div class="row"><div class="12">
+        &nbsp;
+    </div></div><div class="row"><div class="col-6"><a class="btn btn-default" href="/">Startseite</a>
+            &nbsp;
+        
+        
+            <a class="btn btn-default" href="/sportprogramm/a-z/">A-Z Kursindex</a></div><div class="col-6"></div></div></div></div></div><div class="footerwrap"><div class="container footerrow"><div class="row"><div class="col-12" role="region"><div id="c73" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery " data-ce-columns="4" data-ce-images="4"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="https://www.adh.de/" title="Allgemeiner Deutscher Hochschulsportverband" target="_blank" rel="noreferrer"><img aria-label="Allgemeiner Deutscher Hochschulsportverband" title="Allgemeiner Deutscher Hochschulsportverband" alt="Allgemeiner Deutscher Hochschulsportverband" loading="lazy" src="/fileadmin/content/99_footer_Logos/logo-adh.jpg" width="170" height="78"></a></figure></div><div class="ce-column"><figure class="image"><a href="http://www.adh.de/projekte/partnerhochschule-des-spitzensports/" title="Partnerhochschule des Spitzensports" target="_blank" rel="noreferrer"><img aria-label="Partnerhochschule des Spitzensports" title="Partnerhochschule des Spitzensports" alt="Partnerhochschule des Spitzensports" loading="lazy" src="/fileadmin/content/99_footer_Logos/logo-partnerhochschule-spitzensport.jpg" width="170" height="78"></a></figure></div><div class="ce-column"><figure class="image"><a href="https://www.enas-sport.net/" title="European network of academic sports services" target="_blank" rel="noreferrer"><img aria-label="European network of academic sports services" title="European network of academic sports services" alt="European network of academic sports services" loading="lazy" src="/fileadmin/content/99_footer_Logos/logo-enas.jpg" width="170" height="78"></a></figure></div><div class="ce-column"><figure class="image"><a href="https://www.dosb.de/" title="Deutscher Olympischer Sportbund" target="_blank" rel="noreferrer"><img aria-label="Deutscher Olympischer Sportbund" title="Deutscher Olympischer Sportbund" alt="Deutscher Olympischer Sportbund" loading="lazy" src="/fileadmin/content/99_footer_Logos/logo-deutscher-olympischer-sport-bund.jpg" width="170" height="78"></a></figure></div></div></div></div></div></div></div><div id="c1073" class="frame frame-default frame-type-textmedia frame-layout-0"><div class="ce-textpic ce-center ce-above"><div class="ce-gallery " data-ce-columns="2" data-ce-images="2"><div class="ce-outer"><div class="ce-inner"><div class="ce-row"><div class="ce-column"><figure class="image"><a href="https://www.facebook.com/TUSportBerlin/"><img aria-label="" loading="lazy" src="/fileadmin/_processed_/2/0/csm_f_logo_RGB-Black_100_aef0e9266b.png" width="50" height="50" alt=""></a></figure></div><div class="ce-column"><figure class="image"><a href="https://www.instagram.com/tuberlinsport/"><img aria-label="" loading="lazy" src="/fileadmin/_processed_/d/1/csm_glyph-logo_May2016_5b53f72f7d.png" width="50" height="50" alt=""></a></figure></div></div></div></div></div></div></div></div></div></div></div><div class="darkfooterwrap"><footer class="pagefooter"><div class="container"><div class="row"><div class="col-12 col-lg-6 justify-logo"><div class="logoarea_logo"><a href="/" title="Zur Startseite Zentraleinrichtung Hochschulsport"><img src="/typo3conf/ext/epx_hochschulsport/Resources/Public/Images/TU-Sport_rgb_Weiss.png" title="" alt="" class="mobilelogo"></a></div><div class="logoarea_title"><a href="/" title="Zentraleinrichtung Hochschulsport Startseite">
+                            Zentraleinrichtung Hochschulsport
+                        </a></div></div><div class="col-12 col-lg-6 justify-metanavi"><div class="metanavi"><div class="metarow"><ul class="nav"><li class="nav-item "><a class="nav-link" href="/agb/" target="" title="AGB">
+                                                AGB
+                                            </a></li><li class="nav-item "><a class="nav-link" href="/impressum/datenschutz-tu-sport/" target="" title="Datenschutz TU-Sport">
+                                                Datenschutz TU-Sport
+                                            </a></li><li class="nav-item "><a class="nav-link" href="/impressum/" target="" title="Impressum">
+                                                Impressum
+                                            </a></li></ul></div></div></div></div></div></footer></div><!--mobile Sidebar--><div class="" id="mobibutton" xmlns:f="http://www.w3.org/1999/html"><div class="control"><a href="#" id="menutrigger" aria-label="Mobilmenu öffnen" class="menutrigger">Open</a></div><div id="sidebarmenuwidget"><div class="headrow"><a href="/" title="Zur Startseite Zentraleinrichtung Hochschulsport"><img src="/typo3conf/ext/epx_hochschulsport/Resources/Public/Images/TU-Sport_rgb_Weiss.png" title="" alt="" class="mobilelogo"></a><a href="#" id="menucloser" aria-label="Mobilmenu schließen" class="">Close</a></div><div class="sidebarnavi"><ul><li class="nav-item active hassub "><a class="nav-link" href="/sportprogramm/" target="" title="Sportprogramm">
+                            Sportprogramm
+                        </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/a-z/" target="" title="A-Z">
+                    A-Z
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/nach-bereichen/" target="" title="Nach Bereichen">
+                    Nach Bereichen
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/nach-sportstaetten/" target="" title="Nach Sportstätten">
+                    Nach Sportstätten
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/" target="" title="TU-Bootshaus">
+                    TU-Bootshaus
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/bootsverleih/" target="" title="Bootsverleih">
+                    Bootsverleih
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/rundgang-bootshaus/" target="" title="Rundgang Bootshaus">
+                    Rundgang Bootshaus
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/sportbootfuehrerschein/" target="" title="Sportbootführerschein">
+                    Sportbootführerschein
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/sportbootfuehrerschein-binnen-ausbildung/" target="" title="Alle Segelangebote">
+                    Alle Segelangebote
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/regelungen-zum-ausleihbetrieb-am-tu-bootshaus/" target="" title="Fragen und Antworten zum Ausleihbetrieb">
+                    Fragen und Antworten zum Ausleihbetrieb
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/verleihboote/" target="" title="Verleihboote">
+                    Verleihboote
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/paddeln/" target="" title="Alle Paddelangebote">
+                    Alle Paddelangebote
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/rudern/" target="" title="Alle Ruderangebote">
+                    Alle Ruderangebote
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/" target="" title="Wassersportkooperationen">
+                    Wassersportkooperationen
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/wakeboard-und-wasserski/" target="" title="Wakeboard- und Wasserski in Großbeeren">
+                    Wakeboard- und Wasserski in Großbeeren
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/bootshaus/wassersportkooperationen/surfen-und-kitesurfen-mit-den-ruegen-piraten/" target="" title="Surfen und Kitesurfen mit den Rügen Piraten">
+                    Surfen und Kitesurfen mit den Rügen Piraten
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/fitness-studio/" target="" title="Fitness-Studio">
+                    Fitness-Studio
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/online-angebote-1/" target="" title="Online Flatrate">
+                    Online Flatrate
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/outdoor-gym/" target="" title="Outdoor Gym">
+                    Outdoor Gym
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote/" target="" title="Gruppenangebote">
+                    Gruppenangebote
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote/eisstockschiessen-tu-sportzentrum-dovestrasse/" target="" title="Eisstockschießen TU-Sportzentrum Dovestraße">
+                    Eisstockschießen TU-Sportzentrum Dovestraße
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/" target="" title="Gesundheitsförderung">
+                    Gesundheitsförderung
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/yogastile-guide/" target="" title="Yogastile - Guide">
+                    Yogastile - Guide
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/gesundheitsangebote-fuer-beschaeftigte/" target="" title="Gesundheitsangebote für Beschäftigte">
+                    Gesundheitsangebote für Beschäftigte
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/" target="" title="be part of it">
+                    be part of it
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/challenge-monate/" target="" title="Challenge Monate">
+                    Challenge Monate
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/fahrradtouren/" target="" title="Fahrradtouren">
+                    Fahrradtouren
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-2-1/" target="" title="Free Yoga Class">
+                    Free Yoga Class
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-2/" target="" title="Fahrradtour SoSe23">
+                    Fahrradtour SoSe23
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-2/" target="" title="Challenge Monat 23 Info">
+                    Challenge Monat 23 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-bib/" target="" title="QR Code Challenge Bib">
+                    QR Code Challenge Bib
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/study-together/" target="" title="Study Together">
+                    Study Together
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-1-1-1/" target="" title="Magic">
+                    Magic
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1-1/" target="" title="Wednesday Wisdom - Novembertipps Info">
+                    Wednesday Wisdom - Novembertipps Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1-1/" target="" title="Fahrradtour WiSe 22/23 Info">
+                    Fahrradtour WiSe 22/23 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1-1/" target="" title="Fahrradtour SoSe22 Info">
+                    Fahrradtour SoSe22 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2-1/" target="" title="Challenge Monat 22 Info">
+                    Challenge Monat 22 Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-2/" target="" title="QR Code Challenge Info">
+                    QR Code Challenge Info
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange/" target="" title="QR Code Challenge BB">
+                    QR Code Challenge BB
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1/" target="" title="QR Code Challenge TT">
+                    QR Code Challenge TT
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1/" target="" title="QR Code Challenge Bank">
+                    QR Code Challenge Bank
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1/" target="" title="QR Code Challenge SRH">
+                    QR Code Challenge SRH
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1-1/" target="" title="QR Code Challenge EH">
+                    QR Code Challenge EH
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challange-1-1-1-1-1/" target="" title="QR Code Challenge VP">
+                    QR Code Challenge VP
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-rad/" target="" title="QR Code Challenge Rad">
+                    QR Code Challenge Rad
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-wiwi/" target="" title="QR Code Challenge WiWi">
+                    QR Code Challenge WiWi
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/be-part-of-it/qr-code-challenge-mensa/" target="" title="QR Code Challenge Mensa">
+                    QR Code Challenge Mensa
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gesundheitsfoerderung/plaetze-zum-treffen-und-aktivsein/" target="" title="Plätze zum Treffen und Aktivsein">
+                    Plätze zum Treffen und Aktivsein
+                </a></li></ul></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/spitzensport/" target="" title="Spitzensport">
+                            Spitzensport
+                        </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/spitzensport/duale-karriere-an-der-tu-berlin/" target="" title="Duale Karriere an der TU Berlin">
+                    Duale Karriere an der TU Berlin
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/spitzensportticker/" target="" title="Nachrichten">
+                    Nachrichten
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/kooperationsvereinbarung/" target="" title="Kooperationsvereinbarung">
+                    Kooperationsvereinbarung
+                </a></li><li class="nav-item "><a class="nav-link" href="/erfolge-der-spitzensportlerinnen/" target="" title="Sportliche Erfolge">
+                    Sportliche Erfolge
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/world-university-games/" target="" title="FISU World University Games">
+                    FISU World University Games
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/portraets-der-spitzensportlerinnen/" target="" title="Porträts der Spitzensportler/innen">
+                    Porträts der Spitzensportler/innen
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/" target="" title="Archiv">
+                    Archiv
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/nachrichten-archiv/" target="" title="Nachrichten-Archiv">
+                    Nachrichten-Archiv
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/spitzensport/archiv/nachrichten-archiv/standard-titel/" target="" title="Detailseite">
+                    Detailseite
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/" target="" title="Frühere Wettkampfberichterstattung">
+                    Frühere Wettkampfberichterstattung
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/spitzensport/duale-karriere-an-der-tu-berlin-1-1/" target="" title="Paris 2024">
+                    Paris 2024
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/rio-2016/" target="" title="Rio 2016">
+                    Rio 2016
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/universiade-taipeh-2017/" target="" title="Universiade Taipeh 2017">
+                    Universiade Taipeh 2017
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/" target="" title="Leichtathletik EM Berlin 2018">
+                    Leichtathletik EM Berlin 2018
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-1-sebastian-schenk-laeufer/" target="" title="Interviewreihe - Folge 1: Sebastian Schenk, Läufer">
+                    Interviewreihe - Folge 1: Sebastian Schenk, Läufer
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-2-timo-benitz-mittelstreckenlaeufer/" target="" title="Interviewreihe - Folge 2: Timo Benitz, Mittelstreckenläufer">
+                    Interviewreihe - Folge 2: Timo Benitz, Mittelstreckenläufer
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/interviewreihe-folge-3-thurid-gers-hindernislaeuferin/" target="" title="Interviewreihe - Folge 3: Thurid Gers, Hindernisläuferin">
+                    Interviewreihe - Folge 3: Thurid Gers, Hindernisläuferin
+                </a></li><li class="nav-item "><a class="nav-link" href="/spitzensport/fruehere-wettkampfberichterstattung/leichtathletik-em-berlin-2018/dokumentation-des-kontroversen-ard-interviews-mit-timo-benitz/" target="" title="Dokumentation des kontroversen ARD-Interviews mit Timo Benitz">
+                    Dokumentation des kontroversen ARD-Interviews mit Timo Benitz
+                </a></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/spitzensport/chronik-der-spitzensportfoerderung/" target="" title="Chronik der Spitzensportförderung">
+                    Chronik der Spitzensportförderung
+                </a></li></ul></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/wettkampf-events/" target="" title="Wettkampf">
+                            Wettkampf
+                        </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/wettkampf-events/hochschulmeisterschaften/" target="" title="Hochschulmeisterschaften - DHM">
+                    Hochschulmeisterschaften - DHM
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/turniere/" target="" title="BHM &amp; Turniere">
+                    BHM &amp; Turniere
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/uni-ligen/" target="" title="Uni-Ligen">
+                    Uni-Ligen
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/volleyballliga/" target="" title="Volleyballliga">
+                    Volleyballliga
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/volleyballliga/anmeldung/" target="" title="Anmeldung">
+                    Anmeldung
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/" target="" title="Fussballiga">
+                    Fussballiga
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/sportplaetze/" target="" title="Sportplätze">
+                    Sportplätze
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/regeln/" target="" title="Regeln">
+                    Regeln
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/versicherung/" target="" title="Versicherung">
+                    Versicherung
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/anmeldung/" target="" title="Anmeldung">
+                    Anmeldung
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/anmeldung-1/" target="" title="Spielplan">
+                    Spielplan
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/ergebinsse-melden/" target="" title="Ergebnisse melden">
+                    Ergebnisse melden
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1-1/" target="" title="Tabelle">
+                    Tabelle
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1-1/" target="" title="Saison 2025/2026">
+                    Saison 2025/2026
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024-1/" target="" title="Saison 2024/2025">
+                    Saison 2024/2025
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2023/2024/" target="" title="Saison 2023/2024">
+                    Saison 2023/2024
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020-1-1/" target="" title="Saison 2022/2023">
+                    Saison 2022/2023
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020-1/" target="" title="Saison 2021/2022">
+                    Saison 2021/2022
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2019/2020/" target="" title="Saison 2019/2020">
+                    Saison 2019/2020
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2018/2019/" target="" title="Saison 2018/2019">
+                    Saison 2018/2019
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2016/2017/" target="" title="Saison 2016/2017">
+                    Saison 2016/2017
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/ligen-und-spielgruppen/fussballiga/tabelle/saison-2015/2016/" target="" title="Saison 2015/2016">
+                    Saison 2015/2016
+                </a></li></ul></li></ul></li></ul></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/wettkampf-eventkalender/" target="" title="Wettkampf &amp; Eventkalender">
+                    Wettkampf &amp; Eventkalender
+                </a></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/events-1/" target="" title="Events">
+                            Events
+                        </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/wettkampf-events/events/" target="" title="Jahresübersicht">
+                    Jahresübersicht
+                </a></li><li class="nav-item "><a class="nav-link" href="/sportprogramm/gruppenangebote-1/" target="" title="Eventanfragen">
+                    Eventanfragen
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/after-work-cup/" target="" title="After-Work Cup">
+                    After-Work Cup
+                </a></li><li class="nav-item "><a class="nav-link" href="/wettkampf-events/firmenlauf/" target="" title="Firmenlauf">
+                    Firmenlauf
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/das-stadtradeln-finale/" target="" title="Stadtradeln">
+                    Stadtradeln
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/sport-und-nachhaltigkeitstag-am-bootshaus-der-tu-berlin/" target="" title="Nachhaltigkeitstag">
+                    Nachhaltigkeitstag
+                </a></li><li class="nav-item "><a class="nav-link" href="/tu-sport-on-stage/" target="" title="TU-Sport on Stage">
+                    TU-Sport on Stage
+                </a></li><li class="nav-item "><a class="nav-link" href="/events-1/zumba-party/" target="" title="Zumba® Party 🌟">
+                    Zumba® Party 🌟
+                </a></li></ul></li><li class="nav-item  hassub "><a class="nav-link" href="/service/" target="" title="Service">
+                            Service
+                        </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/" target="" title="How TU Buchung">
+                    How TU Buchung
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/einzelterminbuchungen/" target="" title="Einzelterminbuchungen">
+                    Einzelterminbuchungen
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/orte/" target="" title="Orte">
+                    Orte
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/zahlung/" target="" title="Zahlung">
+                    Zahlung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/ausbuchung/" target="" title="Ausbuchung">
+                    Ausbuchung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/entgelte/" target="" title="Entgelte">
+                    Entgelte
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/how-tu-buchung/zeitraeume/" target="" title="Zeiträume">
+                    Zeiträume
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/kontakt/" target="" title="FAQ | Kontakt">
+                    FAQ | Kontakt
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/faq-kontakt-english/" target="" title="FAQ | Kontakt English">
+                    FAQ | Kontakt English
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/team/" target="" title="Das sind wir">
+                    Das sind wir
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/" target="" title="Fortbildungen">
+                    Fortbildungen
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/awareness-schulung/" target="" title="Awareness Schulung">
+                    Awareness Schulung
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/fortbildungen/sicherheitsunterweisung/" target="" title="Sicherheitsunterweisung">
+                    Sicherheitsunterweisung
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/service/jobs/" target="" title="Jobs">
+                    Jobs
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/downloads/" target="" title="Downloads">
+                    Downloads
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/" target="" title="Vermietungen">
+                    Vermietungen
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/service/vermietungen/vermietungstext-bootshaus/" target="" title="Vermietungstext Bootshaus">
+                    Vermietungstext Bootshaus
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/vermietung-sport-und-seminarraeume/" target="" title="Vermietung Sport- und Seminarräume">
+                    Vermietung Sport- und Seminarräume
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/vermietungen/buchungsbedingungen-und-nutzungsvertrag/" target="" title="Buchungsbedingungen und Nutzungsvertrag">
+                    Buchungsbedingungen und Nutzungsvertrag
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/rat-der-zeh/" target="" title="Rat der ZEH">
+                    Rat der ZEH
+                </a></li><li class="nav-item "><a class="nav-link" href="/service/frauenbeauftragte/" target="" title="Gleichstellung">
+                    Gleichstellung
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/service/frauenbeauftragte/anonymes-feedback/" target="" title="Anonymes Feedback">
+                    Anonymes Feedback
+                </a></li></ul></li><li class="nav-item "><a class="nav-link" href="/service/sportspartners/" target="" title="Sportpartner*innenbörse">
+                    Sportpartner*innenbörse
+                </a><ul class="animatedlayer"><li class="nav-item "><a class="nav-link" href="/sportspartnerlink-1/" target="" title="Sportspartnerlink">
+                    Sportspartnerlink
+                </a></li></ul></li></ul></li></ul></div><div class="metarow"><ul class="navlist"><li class="nav-item "><a class="nav-link" href="/information-in-english/" target="" title="Information in english">
+                            Information in english
+                        </a></li><li class="nav-item "><a class="nav-link" href="/mailinglisten/" target="" title="Newsletter">
+                            Newsletter
+                        </a></li><li class="nav-item "><a class="nav-link" href="/termine/" target="" title="Termine &amp; Öffnungszeiten">
+                            Termine &amp; Öffnungszeiten
+                        </a></li><li class="nav-item "><a class="nav-link" href="/agb-1/" target="" title="AGB">
+                            AGB
+                        </a></li><li class="nav-item "><a class="nav-link" href="/kontakt/" target="" title="FAQ">
+                            FAQ
+                        </a></li><li class="nav-item "><a class="nav-link" href="/suche/" target="" title="Suche">
+                            Suche
+                        </a></li></ul></div><div class="metarow"><ul class="navlist"><li class="nav-item "><a class="nav-link" href="/agb/" target="" title="AGB">
+                                AGB
+                            </a></li><li class="nav-item "><a class="nav-link" href="/impressum/datenschutz-tu-sport/" target="" title="Datenschutz TU-Sport">
+                                Datenschutz TU-Sport
+                            </a></li><li class="nav-item "><a class="nav-link" href="/impressum/" target="" title="Impressum">
+                                Impressum
+                            </a></li></ul></div></div></div>
+
+<script src="/typo3temp/assets/compressed/merged-902499f6dfe88c9467c655d30c90fcde-02dc9bed0774f73d0478b5b2a0a0d8ff.js?1746437503"></script>
+
+
+
+</body></html>
