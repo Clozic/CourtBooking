@@ -26,6 +26,6 @@ jobs:
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          TARGET_DATE: ${{ vars.TARGET_DATE }}       # e.g. "2025-05-10"
-          TARGET_TIMES: ${{ vars.TARGET_TIMES }}     # e.g. "18:00,19:00,20:00"
-        run: python check_tennis.py
+          TARGET_DATE: ${{ vars.TARGET_DATE }}
+          TARGET_TIMES: ${{ vars.TARGET_TIMES }}
+        run: python check_tennis.py || true

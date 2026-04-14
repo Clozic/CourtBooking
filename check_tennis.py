@@ -15,9 +15,8 @@ TARGET_DAYS = {
     "Freitag",
 }
 
-# Zeitbereich statt exakter Stringvergleich → robuster gegen Änderungen
 TARGET_START_HOUR = 17
-TARGET_END_HOUR = 21  # exklusiv (21 bedeutet bis 20:59 Startzeit)
+TARGET_END_HOUR = 20
 
 
 def fetch_html():
