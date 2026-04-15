@@ -9,7 +9,7 @@ URL = "https://www.tu-sport.de/sportprogramm/kurse/?tx_dwzeh_courses%5Baction%5D
 
 TARGET_DAYS = {
     "Montag",
-    "Dienstag",
+    # "Dienstag",
     "Mittwoch",
     "Donnerstag",
     "Freitag",
