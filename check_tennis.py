@@ -7,13 +7,7 @@ from datetime import datetime, timezone
 
 URL = "https://www.tu-sport.de/sportprogramm/kurse/?tx_dwzeh_courses%5Baction%5D=show&tx_dwzeh_courses%5BsportsDescription%5D=768&cHash=302c5e58dded9777b08d1305c1398488"
 
-TARGET_DAYS = {
-    # "Montag",
-    # "Dienstag",
-    "Mittwoch",
-    "Donnerstag",
-    "Freitag",
-}
+TARGET_DAYS = int(os.environ.get("TARGET_DAYS", 20))
 TARGET_START_HOUR = int(os.environ.get("TARGET_START_HOUR", 17))
 TARGET_END_HOUR = int(os.environ.get("TARGET_END_HOUR", 20))
 
