@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '*/5 * * * *'  # every 5 minutes
   workflow_dispatch:        # allows manual trigger from GitHub UI
+  repository_dispatch:
+    types: [trigger-check]
 
 jobs:
   check:
