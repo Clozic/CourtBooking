@@ -32,4 +32,4 @@ jobs:
           TARGET_TIMES: ${{ vars.TARGET_TIMES }}
           TARGET_START_HOUR: ${{ vars.TARGET_START_HOUR }}
           TARGET_END_HOUR: ${{ vars.TARGET_END_HOUR }}
-        run: python check_tennis.py || true
+        run: python -u check_tennis.py
