@@ -30,6 +30,7 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           TARGET_DATE: ${{ vars.TARGET_DATE }}
           TARGET_TIMES: ${{ vars.TARGET_TIMES }}
+          TARGET_DAYS: ${{ vars.TARGET_DAYS }}
           TARGET_START_HOUR: ${{ vars.TARGET_START_HOUR }}
           TARGET_END_HOUR: ${{ vars.TARGET_END_HOUR }}
         run: python -u check_tennis.py
