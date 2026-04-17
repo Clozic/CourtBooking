@@ -45,7 +45,7 @@ def parse_slots(html):
         if head:
             # Clean up potential &nbsp; or hidden characters
             current_day = head.get_text(strip=True).replace('\xa0', ' ').strip()
-            print(f"TARGET_DAYS: {repr(TARGET_DAYS)}")
+            print(f"Parsed day: {repr(current_day)} | TARGET_DAYS: {repr(TARGET_DAYS)}", flush=True)
             continue
 
         if not current_day or current_day not in TARGET_DAYS:
