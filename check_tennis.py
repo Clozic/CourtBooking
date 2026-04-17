@@ -90,6 +90,11 @@ def send_email(available_slots):
 
 
 def main():
+    import sys
+    print("Script started", flush=True)
+    sys.stdout.flush()
+    print(f"TARGET_DAYS: {repr(TARGET_DAYS)}", flush=True)
+    print(f"TARGET_TIMES: {repr(TARGET_TIMES)}", flush=True)
     now = datetime.now(timezone.utc)
     print("Run at:", now.isoformat())
 
@@ -109,4 +114,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
+        raise
