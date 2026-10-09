@@ -31,4 +31,5 @@ jobs:
           TARGET_DAYS: ${{ vars.TARGET_DAYS }}
           TARGET_START_HOUR: ${{ vars.TARGET_START_HOUR }}
           TARGET_END_HOUR: ${{ vars.TARGET_END_HOUR }}
+          DATABASE_URL: ${{ vars.DATABASE_URL }}
         run: python -u check_tennis.py

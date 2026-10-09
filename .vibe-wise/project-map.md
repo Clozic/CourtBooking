@@ -17,6 +17,12 @@ Not yet stated by learner.
 GitHub Actions trigger -> check_tennis.py -> GET tu-sport.de page -> parse div.timetable for `div.date.bookable` in TARGET_DAYS and hour range -> if matches: SMTP email.
 Who sends repository_dispatch (scheduler)? unknown.
 
+## Chosen (not implemented)
+- Storage: Neon free hosted PostgreSQL, table of sessions keyed by (Kursid, session_date).
+- Columns: Kursid, session_date, feld, day, time, first_seen_at, last_seen_at, notified_at; booked_by_me scope undecided.
+- Flow: slot found -> row exists? no: insert, send email, set notified_at. yes: update last_seen_at; if notified_at empty, send email then set it.
+- session_date = next date with that weekday whose start >= now (Europe/Berlin).
+
 ## Data and Trust Boundaries
 No storage. Config via env/secrets/vars: NOTIFY_EMAIL, SMTP_*, TARGET_DAYS, TARGET_START_HOUR, TARGET_END_HOUR. External: tu-sport.de (HTML, untrusted), SMTP server.
 
